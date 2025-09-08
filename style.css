@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+#page-container {
+    margin: 0 auto;
+    width: 1000px;
+    height: 800px;
+    background-color: #FFD4D4;
+}
+
+/* paragraphs */
+p {
+    color: black;
+}
+
+/* floats */
+.floatRight {
+    float: right;
+}
+
+.floatLeft {
+    float: left;
+}
+
+/* nav style */
+nav {
+    margin-left: 20px;
+    background-color: #CDE990;
+    padding: 20px;
+    text-align: center;
+}
+
+/* main style */
+main {
+    width: 500px;
+    background-color: #FFFFE8;
+    text-align: center;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+/* stuff inside main */
+main h2 {
+    background-color: #FFEFEF;
+}
+
+/* footer style */
+footer {
+    clear: both;
+    text-align: center;
+    padding: 40px;
+}
+
+/* header style */
+header h1 {
+    text-align: center;
+}
+
+/* footer style */
+footer p {
+    color: black;
+}
