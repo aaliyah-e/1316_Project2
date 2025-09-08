@@ -9,9 +9,19 @@
     background-color: #FFD4D4;
 }
 
-/* paragraphs */
-p {
-    color: black;
+/* paragraph colors */
+.floatRight > div {
+    color: rgb(156, 68, 119);
+}
+
+.floatLeft > div {
+    color: rgb(61, 145, 65);
+}
+
+/* h3 (fave things) color */
+h3
+{
+    color: rgb(61, 145, 65);
 }
 
 /* floats */
@@ -26,18 +36,32 @@ p {
 /* nav style */
 nav {
     margin-left: 20px;
+    display: block;
     background-color: #CDE990;
     padding: 20px;
+    visibility: visible;
     text-align: center;
+    border-top: 6px solid pink;
+    border-bottom: 6px solid pink;
+    border-left: 6px solid pink;
+    border-right: 6px solid pink;
+    box-shadow: 2px 5px 1rem palevioletred;
 }
 
 /* main style */
 main {
     width: 500px;
+    display: block;
     background-color: #FFFFE8;
     text-align: center;
     margin-right: 20px;
+    visibility: visible;
     padding: 20px;
+    border-top: 6px solid lemonchiffon;
+    border-bottom: 6px solid lemonchiffon;
+    border-left: 6px solid lemonchiffon;
+    border-right: 6px solid lemonchiffon;
+    box-shadow: 2px 5px 1rem rgb(255, 219, 152);
 }
 
 /* stuff inside main */
@@ -55,9 +79,10 @@ footer {
 /* header style */
 header h1 {
     text-align: center;
+    color: rgb(233, 89, 137);
 }
 
 /* footer style */
 footer p {
-    color: black;
+    color: rgb(233, 89, 137);
 }
